@@ -148,6 +148,7 @@
 				DEVELOPMENT_TEAM = XQT4XJ3N79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InstafilterUIKit/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to use the photo library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -176,6 +177,7 @@
 				DEVELOPMENT_TEAM = XQT4XJ3N79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InstafilterUIKit/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to use the photo library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
