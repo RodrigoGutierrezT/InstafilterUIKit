@@ -53,8 +53,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         guard let image = imageView.image else { return }
         
         UIImageWriteToSavedPhotosAlbum(image, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
-        
-        
     }
     
     @IBAction func intensityChanged(_ sender: Any) {
@@ -121,7 +119,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             // transform cg image to UI image
             let processedImage = UIImage(cgImage: cgImage)
             // Assign ui image to the imageView
+            imageView.alpha = 0
             imageView.image = processedImage
+            
+            UIView.animate(withDuration: 0.85, delay: 0.5, options: []) {
+                self.imageView.alpha = 1
+            }
+
         }
     }
     
