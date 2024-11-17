@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RjN-5Z-lH6">
-                                <rect key="frame" x="9" y="58" width="375" height="625"/>
+                                <rect key="frame" x="9" y="113" width="375" height="570"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RbX-AL-oBB">
-                                        <rect key="frame" x="10" y="10" width="355" height="605"/>
+                                        <rect key="frame" x="10" y="10" width="355" height="550"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -80,7 +80,7 @@
                             <constraint firstItem="RjN-5Z-lH6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="9" id="SAm-2Q-eL1"/>
                             <constraint firstItem="i55-VX-YOH" firstAttribute="top" secondItem="RjN-5Z-lH6" secondAttribute="bottom" constant="29" id="cdf-0w-aRe"/>
                             <constraint firstItem="VK1-jZ-VCj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fpP-9O-m7l"/>
-                            <constraint firstItem="RjN-5Z-lH6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-45" id="oWn-44-OQR"/>
+                            <constraint firstItem="RjN-5Z-lH6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="oWn-44-OQR"/>
                             <constraint firstItem="84x-ei-lIP" firstAttribute="centerY" secondItem="IqZ-JJ-cTe" secondAttribute="centerY" id="qtX-Hr-qMB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="84x-ei-lIP" secondAttribute="bottom" constant="20" id="reW-GM-5bC"/>
                             <constraint firstItem="84x-ei-lIP" firstAttribute="top" secondItem="VK1-jZ-VCj" secondAttribute="bottom" constant="16" id="uXk-dL-iOi"/>
